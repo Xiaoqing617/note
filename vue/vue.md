@@ -1060,7 +1060,7 @@ less-loader
 
 file-loader或url-loade
 
-## 处理浏览器js语法不兼容问题
+## Babel处理浏览器js语法不兼容问题
 
 babel-loade  （安装的时候记得看版本好，一般去原英文网站）
 

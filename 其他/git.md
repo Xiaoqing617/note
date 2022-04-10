@@ -71,33 +71,3 @@
        4. id_rsa是私钥，id_rea.pub是公钥，需要给GitHub公钥
        5. 在GitHub账号设置中点击SSH然后new一个钥匙输入公钥中的东西即可
 
-
-
-1、如果没有git管理则
-创建版本库  git init
-2、如果有git管理则
-克隆项目 git clone 项目地址
-3、查看当前git状态
-git status
-4、查看当前本地分支
-git branch
-5、查看当前全部（本地、远程）分支
-git branch -a
-6、添加修改到本地
-git add ./ （后面的./是需要提交的文件路径  ./代表根目录全部）
-7、提交修改到本地
-git commit -m '注释'
-8、拉取远程代码到本地
-git pull origin 分支名
-9、推送本地代码分支到远程
-git push origin 分支名
-10、查看版本号
-git log
-11、对比两个分支代码区别
-git diff 分支名
-12、放弃本地全部修改
-git checkout .
-13、切换分支
-git checkout 分支名
-14、拉取全部远程分支到本地
-git fetch
